@@ -27,14 +27,18 @@
         },
         {
             "label": "clean",
-            "type": "shell",
-            "command": "make clean"
+            "type": "process",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
             "isBackground": true,
-            "command": "C:\\desmume\\DeSmuME_0.9.11_x64.exe",
+            "command": "C:\\desmume\\DeSmuME_0.9.11_x86.exe",
             "args": [
                 "${workspaceFolder}/${workspaceFolderBasename}.nds"
             ],

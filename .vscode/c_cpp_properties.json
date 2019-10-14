@@ -5,9 +5,9 @@
             "forcedInclude": ["${workspaceFolder}\\include\\vscode_fix.h"],
             "includePath": [
                 "${workspaceFolder}",
-                "${workspaceFolder}\\include",
-                "C:\\devkitPro\\libnds\\include",
-                "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include"
+                "${workspaceFolder}\\include\\**",
+                "C:\\devkitPro\\libnds\\include\\**",
+                "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include\\**"
             ],
             "defines": [
                 "_DEBUG",
@@ -19,9 +19,9 @@
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "${workspaceFolder}\\include",
-                    "C:\\devkitPro\\libnds\\include",
-                    "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include"
+                    "${workspaceFolder}\\include\\**",
+                    "C:\\devkitPro\\libnds\\include\\**",
+                    "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include\\**"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
